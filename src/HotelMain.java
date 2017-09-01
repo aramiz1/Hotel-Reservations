@@ -16,7 +16,7 @@ public class HotelMain{
 		//bookings and marked them as already booked in the global reserveRooms
 		//array. If it is not done then even if a specific type of room such as
 		//single is completely booked, the program will still book it if a 
-		//new user requests it because theindex of that room in the array 
+		//new user requests it because the index of that room in the array 
 		//is still marked as false.
 		List<HotelClass> markRoomsUponStart = new ArrayList<HotelClass>();
 		markRoomsUponStart = deserialize();
